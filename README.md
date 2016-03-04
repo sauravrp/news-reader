@@ -14,6 +14,8 @@ In retrospect, it would have easier to shove the data in sharedpreferences than 
 
 Also, restore on the scroll position is a hacky solution currently. Better approach would have been to use View.onSaveInstanceState and View.onRestoreInstanceState to restore it on rotation.
 
+Scrollig infinitely was copied from: http://www.avocarrot.com/blog/implement-infinitely-scrolling-list-android/
+
 Screenshots:
 ![alt tag](https://raw.githubusercontent.com/sauravrp/news-reader/master/screenshots/demo1.png)
 ![alt tag](https://raw.githubusercontent.com/sauravrp/news-reader/master/screenshots/demo2.png)
